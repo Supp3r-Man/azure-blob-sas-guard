@@ -1,6 +1,6 @@
 # azure-blob-sas-guard
 
-![ci](https://github.com/Sup3rMar10/azure-blob-sas-guard/actions/workflows/ci.yml/badge.svg)
+![ci](https://github.com/Supp3r-Man/azure-blob-sas-guard/actions/workflows/ci.yml/badge.svg)
 
 **Shared access signatures (SAS) for Azure Blob Storage, with a policy that decides whether to sign, an audit that reads tokens, a scanner that finds them in repositories, and tests that check what a real Azurite emulator actually enforces.** A SAS is a bearer credential in a URL: whoever holds it can do what it says until it expires. This repo makes the dangerous choices (delete permission, a day-long lifetime, a container-wide token, no HTTPS requirement) hard to make, and shows the consequences against a running storage emulator.
 
